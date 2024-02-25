@@ -1,22 +1,20 @@
-package com.sneha;
+package com.sneha.service;
 
 import com.sneha.model.Course;
+import com.sneha.repository.CourseRepository;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 public class CourseService implements CrudService{
-
-    private List<Course> courses;
-    public CourseService() {
-        Course course = new Course(1, "Vanilla Spring introduction", "An complete intro to SPRING", "http://localhost:9090");
-        courses.add(course);
+    private CourseRepository courseRepository;
+    public CourseService(CourseRepository courseRepository) {
+        this.courseRepository = courseRepository;
     }
 
     @Override
     public List list() {
-        return courses;
+        return courseRepository.findAll();
     }
 
     @Override
