@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/service/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/service/CrudService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +25,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sneha.Application" />
+      <module name="spring-newbie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sneha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,6 +59,19 @@
       <option name="presentableId" value="Default" />
       <updated>1708758500752</updated>
     </task>
+    <task id="LOCAL-00001" summary="danvega: spring intro using annotations">
+      <option name="closed" value="true" />
+      <created>1708877744075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708877744075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="danvega: spring intro using annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="danvega: spring intro using annotations" />
   </component>
 </project>

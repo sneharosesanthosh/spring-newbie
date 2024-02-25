@@ -1,4 +1,4 @@
-package com.sneha;
+package com.sneha.service;
 
 import com.sneha.model.Course;
 

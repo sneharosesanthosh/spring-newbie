@@ -1,4 +1,4 @@
-package com.sneha;
+package com.sneha.service;
 
 import java.util.List;
 import java.util.Optional;
