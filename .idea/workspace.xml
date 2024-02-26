@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/MathCheat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CrudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/service/CourseService.java" afterDir="false" />
+    <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects.">
       <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +63,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708877744075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects.">
+      <option name="closed" value="true" />
+      <created>1708952886121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708952886121</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="danvega: spring intro using annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="danvega: spring intro using annotations" />
+    <MESSAGE value="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects." />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects." />
   </component>
 </project>

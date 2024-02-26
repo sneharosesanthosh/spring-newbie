@@ -8,21 +8,17 @@
         <constructor-arg name="id" value="100"/>
         <constructor-arg name="title" value="SNeha titele"/>
     </bean>
+    <bean id="mathCheat" class="com.sneha.model.MathCheat"></bean>
 
     <bean id="noel" class="com.sneha.model.Student">
         <constructor-arg name="studentName" value="Snehaaaaa"/>
-
-        <constructor-arg name="mathCheat">
-            <bean id="mathCheat" class="com.sneha.model.MathCheat"></bean>
-        </constructor-arg>
-
+        <constructor-arg name="mathCheat" ref="mathCheat"/>
     </bean>
 
     <bean id="joel" class="com.sneha.model.Student">
         <constructor-arg name="studentName" value="Snehaaaaa"/>
+        <constructor-arg ref="mathCheat">
 
-        <constructor-arg name="mathCheat">
-            <bean id="mathCheat" class="com.sneha.model.MathCheat"></bean>
         </constructor-arg>
 
     </bean>
