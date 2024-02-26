@@ -1,2 +1,3 @@
-package com.sneha.repository;public class CourseRepository {
+package com.sneha.repository;
+public class CourseRepository {
 }

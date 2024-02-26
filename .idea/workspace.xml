@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/MathCheat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/repository/CrudRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/service/CrudService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/service/CrudService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

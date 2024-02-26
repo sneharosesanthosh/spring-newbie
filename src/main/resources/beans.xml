@@ -9,4 +9,22 @@
         <constructor-arg name="title" value="SNeha titele"/>
     </bean>
 
+    <bean id="noel" class="com.sneha.model.Student">
+        <constructor-arg name="studentName" value="Snehaaaaa"/>
+
+        <constructor-arg name="mathCheat">
+            <bean id="mathCheat" class="com.sneha.model.MathCheat"></bean>
+        </constructor-arg>
+
+    </bean>
+
+    <bean id="joel" class="com.sneha.model.Student">
+        <constructor-arg name="studentName" value="Snehaaaaa"/>
+
+        <constructor-arg name="mathCheat">
+            <bean id="mathCheat" class="com.sneha.model.MathCheat"></bean>
+        </constructor-arg>
+
+    </bean>
+
 </beans>

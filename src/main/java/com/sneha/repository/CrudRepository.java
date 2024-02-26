@@ -1,2 +1,3 @@
-package com.sneha.repository;public class CrudRepository {
+package com.sneha.repository;
+public class CrudRepository {
 }

@@ -1,2 +1,3 @@
-package com.sneha.config;public class AppConfig {
+package com.sneha.config;
+public class AppConfig {
 }
