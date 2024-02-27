@@ -18,7 +18,7 @@
 
     <bean id="joel" class="com.sneha.model.Student">
         <constructor-arg name="studentName" value="Snehaaaaa"/>
-        <constructor-arg ref="scienceCheatObject"/>
+        <constructor-arg ref="mathCheatObject"/>
 <!--        if we do not specify the name attribute, it will work-->
 
 

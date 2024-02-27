@@ -3,24 +3,24 @@ public class Student {
     private String studentName;
 
 //    MathCheat mathCheat;   // using the implementation/class reference
-    ScienceCheat scienceCheat;
+    Cheat cheat;   // using the interface reference
     public Student() {
         System.out.println("No args Student constructor called");
     }
-    public Student(ScienceCheat scienceCheat) {
+    public Student(Cheat cheat) {
 //        this.mathCheat = mathCheat;
-        this.scienceCheat = scienceCheat;
+        this.cheat = cheat;
     }
 
-    public Student(String studentName, ScienceCheat scienceCheat) {
+    public Student(String studentName, Cheat cheat) {
 //        this.mathCheat = mathCheat;
-        this.scienceCheat = scienceCheat;
+        this.cheat = cheat;
         this.studentName = studentName;
     }
 
     public void studentCheating(String name) {
 //        mathCheat.mathCheating(name);
-        scienceCheat.cheat(name);
+        cheat.cheat(name);
     }
 
 }

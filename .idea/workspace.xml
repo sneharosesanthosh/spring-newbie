@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="selenium: if i need to use only science cheat in student class..i need to do lot of changes(remove math cheat, add science cheat and remove it's setter method if used...etc)Instead use interface (Cheat)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/Cheat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/model/MathCheat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/MathCheat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/model/ScienceCheat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/ScienceCheat.java" afterDir="false" />
+    <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="selenium: Cheat interface implemented. Still science cheat is called in student class instead of calling Cheat interface...">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sneha/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sneha/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709012396038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="selenium: Cheat interface implemented. Still science cheat is called in student class instead of calling Cheat interface...">
+      <option name="closed" value="true" />
+      <created>1709013304974</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709013304974</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +127,7 @@
     <MESSAGE value="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects." />
     <MESSAGE value="selenium: solved 2 times MathCheat getting called on injection inside other objects(noel and joel)" />
     <MESSAGE value="selenium: if i need to use only science cheat in student class..i need to do lot of changes(remove math cheat, add science cheat and remove it's setter method if used...etc)Instead use interface (Cheat)" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium: if i need to use only science cheat in student class..i need to do lot of changes(remove math cheat, add science cheat and remove it's setter method if used...etc)Instead use interface (Cheat)" />
+    <MESSAGE value="selenium: Cheat interface implemented. Still science cheat is called in student class instead of calling Cheat interface..." />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium: Cheat interface implemented. Still science cheat is called in student class instead of calling Cheat interface..." />
   </component>
 </project>
