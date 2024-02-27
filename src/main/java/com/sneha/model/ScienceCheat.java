@@ -1,8 +1,12 @@
 package com.sneha.model;
 
-public class ScienceCheat {
+public class ScienceCheat implements Cheat{
+    public ScienceCheat() {
+        System.out.println("ScienceCheat: NoArgs constructor called");
+    }
 
-    public void scienceCheat(String name) {
+    @Override
+    public void cheat(String name) {
         System.out.println("Science Cheating started by "+name);
     }
 }

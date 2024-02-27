@@ -9,15 +9,16 @@
         <constructor-arg name="title" value="SNeha titele"/>
     </bean>
     <bean id="mathCheatObject" class="com.sneha.model.MathCheat"></bean>
+    <bean id="scienceCheatObject" class="com.sneha.model.ScienceCheat"></bean>
 
     <bean id="noel" class="com.sneha.model.Student">
         <constructor-arg name="studentName" value="Snehaaaaa"/>
-        <constructor-arg name="mathCheat" ref="mathCheatObject"/>
+        <constructor-arg name="scienceCheat" ref="scienceCheatObject"/>
     </bean>
 
     <bean id="joel" class="com.sneha.model.Student">
         <constructor-arg name="studentName" value="Snehaaaaa"/>
-        <constructor-arg ref="mathCheatObject"/>
+        <constructor-arg ref="scienceCheatObject"/>
 <!--        if we do not specify the name attribute, it will work-->
 
 

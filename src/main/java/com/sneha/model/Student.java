@@ -7,12 +7,12 @@ public class Student {
     public Student() {
         System.out.println("No args Student constructor called");
     }
-    public Student(MathCheat mathCheat, ScienceCheat scienceCheat) {
+    public Student(ScienceCheat scienceCheat) {
 //        this.mathCheat = mathCheat;
         this.scienceCheat = scienceCheat;
     }
 
-    public Student(String studentName, MathCheat mathCheat, ScienceCheat scienceCheat) {
+    public Student(String studentName, ScienceCheat scienceCheat) {
 //        this.mathCheat = mathCheat;
         this.scienceCheat = scienceCheat;
         this.studentName = studentName;
@@ -20,7 +20,7 @@ public class Student {
 
     public void studentCheating(String name) {
 //        mathCheat.mathCheating(name);
-        scienceCheat.scienceCheat(name);
+        scienceCheat.cheat(name);
     }
 
 }
