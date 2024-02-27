@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects.">
+    <list default="true" id="db97d71d-3ee5-4e4f-82ec-28ebb00d3f58" name="Changes" comment="selenium: solved 2 times MathCheat getting called on injection inside other objects(noel and joel)">
       <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,12 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708952886121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="selenium: solved 2 times MathCheat getting called on injection inside other objects(noel and joel)">
+      <option name="closed" value="true" />
+      <created>1708953322421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708953322421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="danvega: spring intro using annotations" />
     <MESSAGE value="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects." />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium: bean injection by setter and constructor and&#10;norgs constructor called 2 times on bean creation during injection of it in other objects." />
+    <MESSAGE value="selenium: solved 2 times MathCheat getting called on injection inside other objects(noel and joel)" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium: solved 2 times MathCheat getting called on injection inside other objects(noel and joel)" />
   </component>
 </project>
